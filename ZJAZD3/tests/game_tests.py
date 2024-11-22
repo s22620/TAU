@@ -2,7 +2,7 @@ import unittest
 from io import StringIO
 from unittest.mock import patch
 
-from TAU.ZJAZD3.src.game import generuj_plansze, rows, cols, wyswietl_plansze, wykonaj_ruch, ilosc_przeszkod
+from ZJAZD3.src.game import generuj_plansze, rows, cols, wyswietl_plansze, wykonaj_ruch, ilosc_przeszkod
 
 
 class TestMyGameFunctions(unittest.TestCase):
